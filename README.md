@@ -1,6 +1,6 @@
-# dokku postgres [![Build Status](https://img.shields.io/github/actions/workflow/status/dokku/dokku-postgres/ci.yml?branch=master&style=flat-square "Build Status")](https://github.com/dokku/dokku-postgres/actions/workflows/ci.yml?query=branch%3Amaster) [![IRC Network](https://img.shields.io/badge/irc-libera-blue.svg?style=flat-square "IRC Libera")](https://webchat.libera.chat/?channels=dokku)
+# dokku cockroachdb [![Build Status](https://img.shields.io/github/actions/workflow/status/V-Sekai-fire/dokku-cockroachdb/ci.yml?branch=master&style=flat-square "Build Status")](https://github.com/dokku/dokku-postgres/actions/workflows/ci.yml?query=branch%3Amaster)
 
-Official postgres plugin for dokku. Currently defaults to installing [postgres 17.4](https://hub.docker.com/_/postgres/).
+Cockroachdb plugin for dokku. Pending default to installing Cockroach 22.1.
 
 ## Requirements
 
@@ -11,7 +11,7 @@ Official postgres plugin for dokku. Currently defaults to installing [postgres 1
 
 ```shell
 # on 0.19.x+
-sudo dokku plugin:install https://github.com/dokku/dokku-postgres.git --name postgres
+sudo dokku plugin:install https://github.com/V-Sekai-fire/dokku-cockroachdb.git --name cockroachdb
 ```
 
 ## Commands
